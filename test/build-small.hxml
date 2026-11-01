@@ -1,0 +1,8 @@
+# Same as build.hxml, with the small tree sizes ropey uses in its own unit
+# tests (`cfg(test)`): MAX_CHILDREN 5, MAX_TEXT_SIZE 15.
+-cp ../src
+-cp src
+-main Main
+-D analyzer-optimize
+-D ropey_small_chunks
+-js bin/test-small.js

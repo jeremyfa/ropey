@@ -1,0 +1,8 @@
+// Text of ropey 2.0.0-beta.1: benches/small.txt
+// Original Copyright (c) 2023 Nathan Vegdahl, licensed under MIT OR Apache-2.0.
+
+class SmallText {
+
+    public static inline final SMALL_TEXT = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet tellus \nnec turpis feugiat semper. Nam at nulla laoreet, finibus eros sit amet, fringilla \nmauris. Fusce vestibulum nec ligula efficitur laoreet. Nunc orci leo, varius eget \nligula vulputate, consequat eleifend nisi. Cras justo purus, imperdiet a augue \nmalesuada, convallis cursus libero. Fusce pretium arcu in elementum laoreet. Duis \nmauris nulla, suscipit at est nec, malesuada pellentesque eros. Quisque semper porta \nmalesuada. Nunc hendrerit est ac faucibus mollis. Nam fermentum id libero sed \negestas. Duis a accumsan sapien. Nam neque diam, congue non erat et, porta sagittis \nturpis. Vivamus vitae mauris sit amet massa mollis molestie. Morbi scelerisque, \naugue id congue imperdiet, felis lacus euismod dui, vitae facilisis massa dui quis \nsapien. Vivamus hendrerit a urna a lobortis.\n\nDonec ut suscipit risus. Vivamus dictum auctor vehicula. Sed lacinia ligula sit amet \nurna tristique commodo. Sed sapien risus, egestas ac tempus vel, pellentesque sed \nvelit. Duis pulvinar blandit suscipit. Curabitur viverra dignissim est quis ornare. \nNam et lectus purus. Integer sed augue vehicula, volutpat est vel, convallis justo. \nSuspendisse a convallis nibh, pulvinar rutrum nisi. Fusce ultrices accumsan mauris \nvitae ornare. Cras elementum et ante at tincidunt. Sed luctus scelerisque lobortis. \nSed vel dictum enim. Fusce quis arcu euismod, iaculis mi id, placerat nulla. \nPellentesque porttitor felis elementum justo porttitor auctor.\n";
+
+}

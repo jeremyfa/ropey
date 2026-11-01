@@ -1,0 +1,12 @@
+{
+    "name": "ropey",
+    "url": "https://github.com/cessen/ropey",
+    "license": "MIT",
+    "tags": ["rope", "text", "editor", "utf8", "cross"],
+    "description": "Pure Haxe port of ropey 2.0.0-beta.1, a fast and robust UTF-8 text rope.",
+    "version": "0.1.0",
+    "classPath": "src",
+    "releasenote": "Initial port of ropey 2.0.0-beta.1.",
+    "contributors": ["jeremyfa"],
+    "dependencies": {}
+}
