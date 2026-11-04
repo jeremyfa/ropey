@@ -97,7 +97,7 @@ class TestUtil {
     /**
      * `#[should_panic]`: `f` must throw.
      */
-    public static function panics(f:Void->Void, ?pos:haxe.PosInfos):Void {
+    public static function panics(f:() -> Void, ?pos:haxe.PosInfos):Void {
         assertions++;
         var threw = false;
         try {
