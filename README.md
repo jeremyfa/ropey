@@ -2,7 +2,7 @@
 
 A pure Haxe port of [ropey](https://github.com/cessen/ropey) **2.0.0-beta.1**, the UTF-8 text rope written in Rust by Nathan Vegdahl. It also contains the parts of [str_indices](https://github.com/cessen/str_indices) **0.4.4** (same author) that ropey uses, in `ropey.str_indices`.
 
-A rope is a tree of text chunks: edits and queries run in `O(log N)` time, and cloning a rope is `O(1)` (clones share their tree until one of them is edited). It is the text buffer of the gpui-kit text inputs and editor in ceramic-gpui.
+A rope is a tree of text chunks: edits and queries run in `O(log N)` time, and cloning a rope is `O(1)` (clones share their tree until one of them is edited). It is the text buffer of the gpui-kit text inputs and editor of Glaze (Ceramic's `glaze` plugin).
 
 It has no dependency (no Ceramic, no other haxelib) and runs on every Haxe target. The text is stored as UTF-8 in `haxe.io.Bytes`, so the results are the same on targets with UTF-16 strings (JavaScript) and UTF-8 strings.
 
